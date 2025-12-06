@@ -1,10 +1,25 @@
 {
+  "name": "my-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "next": "^16.0.7"
+    "next": "16.0.7",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "@mui/material": "^5.15.15",
+    "@mui/icons-material": "^5.15.15",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3",
     "@types/react": "^19.2.7",
-    "typescript": "^5.9.3"
+    "@types/node": "^24.10.1"
   }
 }
