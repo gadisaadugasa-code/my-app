@@ -17,7 +17,7 @@ export default function TelemedicineRegistration() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Registration data:", formData);
-    alert("Registration submitted! A doctor will contact you shortly.");
+    alert("Registration  submitted! A doctor will contact you shortly.");
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
